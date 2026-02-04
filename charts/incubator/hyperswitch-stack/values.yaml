@@ -99,25 +99,25 @@ hyperswitch-app:
     targetSecurityGroup: *lb_security_group
   services:
     router:
-      version: v1.117.0
+      version: v1.120.1
       imageRegistry: docker.juspay.io
-      image: juspaydotin/hyperswitch-router:v1.117.0
+      image: juspaydotin/hyperswitch-router:v1.120.1
       host: *router_host
     consumer:
-      version: v1.117.0
+      version: v1.120.1
       imageRegistry: docker.juspay.io
-      image: juspaydotin/hyperswitch-consumer:v1.117.0
+      image: juspaydotin/hyperswitch-consumer:v1.120.1
     producer:
-      version: v1.117.0
+      version: v1.120.1
       imageRegistry: docker.juspay.io
-      image: juspaydotin/hyperswitch-producer:v1.117.0
+      image: juspaydotin/hyperswitch-producer:v1.120.1
     drainer:
       imageRegistry: docker.juspay.io
-      image: juspaydotin/hyperswitch-drainer:v1.117.0
-      version: v1.117.0
+      image: juspaydotin/hyperswitch-drainer:v1.120.1
+      version: v1.120.1
     controlCenter:
       imageRegistry: docker.juspay.io
-      image: juspaydotin/hyperswitch-control-center:v1.37.4
+      image: juspaydotin/hyperswitch-control-center:v1.38.0
     sdk:
       host: *web_sdk_host
       version: 0.126.0
