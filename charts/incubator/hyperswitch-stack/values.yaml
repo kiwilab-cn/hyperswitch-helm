@@ -101,19 +101,19 @@ hyperswitch-app:
     router:
       version: v1.120.1
       imageRegistry: docker.juspay.io
-      image: juspaydotin/hyperswitch-router:v1.120.1
+      image: juspaydotin/hyperswitch-router
       host: *router_host
     consumer:
       version: v1.120.1
       imageRegistry: docker.juspay.io
-      image: juspaydotin/hyperswitch-consumer:v1.120.1
+      image: juspaydotin/hyperswitch-consumer
     producer:
       version: v1.120.1
       imageRegistry: docker.juspay.io
-      image: juspaydotin/hyperswitch-producer:v1.120.1
+      image: juspaydotin/hyperswitch-producer
     drainer:
       imageRegistry: docker.juspay.io
-      image: juspaydotin/hyperswitch-drainer:v1.120.1
+      image: juspaydotin/hyperswitch-drainer
       version: v1.120.1
     controlCenter:
       imageRegistry: docker.juspay.io

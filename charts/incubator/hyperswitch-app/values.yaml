@@ -688,6 +688,7 @@ server:
       payment_function: report_download_config_payment_function
       # -- Config to download refund report
       refund_function: report_download_config_refund_function
+      payout_function: report_download_config_payout_function
       # -- Region of the bucket
       region: report_download_config_region
       # -- Config to authentication function
